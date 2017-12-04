@@ -1,0 +1,8 @@
+/home/xmeng/code/fpga_conv/src/device/direct/direct_conv.cl:1:15: error: global variables must have a constant or channel address space qualifier
+__kernel void conv16*16(__global const float4 *in, __constant float *krnl, __gloabl float4 *out, int out_w)
+              ^
+/home/xmeng/code/fpga_conv/src/device/direct/direct_conv.cl:1:21: error: expected ';' after top level declarator
+__kernel void conv16*16(__global const float4 *in, __constant float *krnl, __gloabl float4 *out, int out_w)
+                    ^
+                    ;
+2 errors generated.
